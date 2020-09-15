@@ -8,6 +8,7 @@ def hello_world():
 
 @app.route('/info')
 def info():
-  return 'My major is I.T Programming.'
+  year  = 2019;
+  return 'My major is I.T Programming since ' + str(year)
   
 app.run(host='0.0.0.0', port=8080)
